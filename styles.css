@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h4{
+    font-weight: 500;
+    color: white;
+}
+
+body{
+    background-color: #212121;
+}
+
+.main{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+
+
+.side-panel{
+    margin: 30px;
+    height: 45vh;
+    width: 17vw;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+.side-panel h4{
+    margin-left: 20px;
+}
+
+.side-panel hr{
+    margin: 20px 20px 0 20px ;
+}
+
+
+
+.side-panel a{
+    margin: 15px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    color: #fff;
+    background-color: #212121;
+    border-radius: 5px;
+}
+
+.center-area{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.first-row, .second-row{
+    border-radius: 15px;
+    width: 900px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.493);
+    display: flex;
+}
+
+.card{
+    margin: 20px;
+    padding: 10px;
+    background-color: #212121;
+    border-radius: 5px;
+    width: 250px;
+    height: 160px;
+}
+
+.card-text{
+    font-size: smaller;
+    color: rgb(138, 128, 128);
+
+}
+
+.card img{
+    float: left;
+}
+
+.product-name, .price{
+    font-size: small;
+    color: white;
+}
+
+.center-area > .product-name{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.product-hr{
+    color: rgb(138, 128, 128);
+    margin: 15px;
+}
+
+.arrow {
+    display: block;
+    float: right;
+    margin-top: .25em;
+    border-color: transparent;
+    border-top-color: whitesmoke;
+      border-style: solid;
+      border-width: .5em .31em 0;
+      width: 0;
+      height: 0;
+      position: relative;
+    line-height: 0;
+  }
